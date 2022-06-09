@@ -56,14 +56,14 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.facebook ? (
+      {socialMediaLinks.twitter ? (
         <a
-          href={socialMediaLinks.facebook}
-          className="icon-button facebook"
+          href={socialMediaLinks.twitter}
+          className="icon-button twitter"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-facebook-f"></i>
+          <i className="fab fa-twitter"></i>
           <span></span>
         </a>
       ) : null}
@@ -80,17 +80,7 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.twitter ? (
-        <a
-          href={socialMediaLinks.twitter}
-          className="icon-button twitter"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-twitter"></i>
-          <span></span>
-        </a>
-      ) : null}
+      
 
       {socialMediaLinks.medium ? (
         <a
